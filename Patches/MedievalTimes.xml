@@ -16,7 +16,7 @@
 	      </li>		
 	      <li Class="PatchOperationAdd">
 	      	<order>Append</order>
-	      	<xpath>*/ThingDef[defName="MedTimes_Firepit" or defName="MedTimes_CorpseBonfire" or defName="MedTimes_StoneHearth" or defName="MedTimes_Smokehouse" or defName="MedTimes_Brazier" or defName="MedTimes_StreetLamp" or defName="MedTimes_Reflector" or defName="MedTimes_FoodPrepStation" or defName="MedTimes_FueledSmelter" or defName="MedTimes_CoalGenerator]//li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs</xpath>				
+	      	<xpath>Defs/ThingDef[defName="MedTimes_Firepit" or defName="MedTimes_CorpseBonfire" or defName="MedTimes_StoneHearth" or defName="MedTimes_Smokehouse" or defName="MedTimes_Brazier" or defName="MedTimes_StreetLamp" or defName="MedTimes_Reflector" or defName="MedTimes_FoodPrepStation" or defName="MedTimes_FueledSmelter" or defName="MedTimes_CoalGenerator]/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs</xpath>				
 	      	<value>
 	      		<li>Coal</li>
 	      	</value>
