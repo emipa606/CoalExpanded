@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Research_NECCoalProduction</defName>
+    <label>Coal Production</label>
+    <description>Build special workbenches which run solely from coal and charcoal.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.05</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
