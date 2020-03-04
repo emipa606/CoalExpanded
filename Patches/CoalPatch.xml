@@ -94,39 +94,57 @@
           <li>Make_ChemfuelFromCoal</li>
         </value>
       </li>
-
-			<!-- Vanilla Expanded Stone Campfire -->
-			<li Class="PatchOperationFindMod">
-			    <mods>
-			        <li>Vanilla Furniture Expanded</li>
-			    </mods>
-			    <match Class="PatchOperationSequence">
-			    	<operations>
-			    		<li Class="PatchOperationAdd">
-				        <xpath>Defs/ThingDef[defName="Stone_Campfire"]/recipes</xpath>
-				        <value>
-				            <li>Make_CharcoalFromWood</li>
-				        </value>
-			      	</li>
-					    <li Class="PatchOperationAdd">
-					    	<xpath>Defs/WorkGiverDef[defName="DoBillsCookCampfire"]/fixedBillGiverDefs</xpath>
-					    	<value>
-					    		<li>Stone_Campfire</li>
-					    	</value>
-					    </li>
-              <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName="Stone_Campfire"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
-                <order>Prepend</order>
-                <value>
-                  <li>Coal</li>
-                  <li>Charcoal</li>
-                </value>
-              </li>
-			    	</operations>
-			    </match>
-			</li>
 		</operations>
 	</Operation>
+
+  <!-- Royalty brazier -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName = "Brazier"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName = "Brazier"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+           <order>Prepend</order>
+          <value>
+            <li>Coal</li>
+            <li>Charcoal</li>
+          </value>
+        </match>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Vanilla Expanded Stone Campfire -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Vanilla Furniture Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Stone_Campfire"]/recipes</xpath>
+          <value>
+              <li>Make_CharcoalFromWood</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/WorkGiverDef[defName="DoBillsCookCampfire"]/fixedBillGiverDefs</xpath>
+          <value>
+            <li>Stone_Campfire</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Stone_Campfire"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
+          <order>Prepend</order>
+          <value>
+            <li>Coal</li>
+            <li>Charcoal</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
 
 	<!-- Dub's Hygiene -->
 	<Operation Class="PatchOperationSequence">
