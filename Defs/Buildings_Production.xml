@@ -409,7 +409,6 @@
             <li>Charcoal</li>
           </thingDefs>
         </fuelFilter>
-        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <initialFuelPercent>0</initialFuelPercent>
         <autoRefuelPercent>0.33</autoRefuelPercent>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
@@ -553,6 +552,9 @@
             <li>Charcoal</li>
           </thingDefs>
         </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <autoRefuelPercent>0.33</autoRefuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>6</glowRadius>
