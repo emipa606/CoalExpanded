@@ -45,6 +45,7 @@
         <xpath>Defs/ThingDef[defName = "ElectricSmelter"]/recipes</xpath>
         <value>
           <li>Make_CharcoalFromWood</li>
+          <li>Make_CoalFromStone</li>
         </value>
       </li>
 
@@ -105,7 +106,7 @@
         <xpath>Defs/ThingDef[defName = "Brazier"]</xpath>
         <match Class="PatchOperationAdd">
           <xpath>Defs/ThingDef[defName = "Brazier"]/comps/li[@Class = "CompProperties_Refuelable"]/fuelFilter/thingDefs</xpath>
-           <order>Prepend</order>
+          <order>Prepend</order>
           <value>
             <li>Coal</li>
             <li>Charcoal</li>
@@ -154,6 +155,7 @@
 			   <xpath>Defs/ThingDef[defName = "LogBoiler"]</xpath>
 			   <match Class="PatchOperationAdd">
 			      <xpath>Defs/ThingDef[defName = "LogBoiler"]//thingDefs</xpath>
+            <order>Prepend</order>
 			      <value>
 			         <li>Coal</li>
 			         <li>Charcoal</li>
@@ -171,6 +173,7 @@
 			   <xpath>Defs/ThingDef[defName = "SignalFire"]</xpath>
 			   <match Class="PatchOperationAdd">
 			      <xpath>Defs/ThingDef[defName = "SignalFire"]//thingDefs</xpath>
+            <order>Prepend</order>
 			      <value>
 			         <li>Coal</li>
 			         <li>Charcoal</li>
@@ -188,6 +191,7 @@
 			   <xpath>Defs/ThingDef[defName = "LotR_TableSmithy"]</xpath>
 			   <match Class="PatchOperationAdd">
 			      <xpath>Defs/ThingDef[defName = "LotR_TableSmithy"]//thingDefs</xpath>
+            <order>Prepend</order>
 			      <value>
 			         <li>Coal</li>
 			         <li>Charcoal</li>
@@ -205,6 +209,7 @@
   		   <xpath>Defs/ThingDef[defName = "RGK_Fireplace"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "RGK_Fireplace"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -215,6 +220,7 @@
   		   <xpath>Defs/ThingDef[defName = "GL_Wall_Lamp"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "GL_Wall_Lamp"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -225,6 +231,7 @@
   		   <xpath>Defs/ThingDef[defName = "RGK_FueledStove"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "RGK_FueledStove"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -235,6 +242,7 @@
   		   <xpath>Defs/ThingDef[defName = "GL_FueledSmithy"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "GL_FueledSmithy"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -245,6 +253,7 @@
   		   <xpath>Defs/ThingDef[defName = "GL_Bonfire"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "GL_Bonfire"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -255,6 +264,7 @@
   		   <xpath>Defs/ThingDef[defName = "RGK_lamp"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "RGK_lamp"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -265,6 +275,7 @@
   		   <xpath>Defs/ThingDef[defName = "RGK_Street_Lamp_L"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "RGK_Street_Lamp_L"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -275,6 +286,7 @@
   		   <xpath>Defs/ThingDef[defName = "RGK_Street_Lamp_Seven"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "RGK_Street_Lamp_Seven"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -292,6 +304,7 @@
   		   <xpath>Defs/ThingDef[defName = "VFE_FueledSmelter"]</xpath>
   		   <match Class="PatchOperationAdd">
   		      <xpath>Defs/ThingDef[defName = "VFE_FueledSmelter"]//thingDefs</xpath>
+            <order>Prepend</order>
   		      <value>
   		         <li>Coal</li>
   		         <li>Charcoal</li>
@@ -309,6 +322,7 @@
 			   <xpath>Defs/ThingDef[defName = "Cults_AlcoveTorch"]</xpath>
 			   <match Class="PatchOperationAdd">
 			      <xpath>Defs/ThingDef[defName = "Cults_AlcoveTorch"]//thingDefs</xpath>
+            <order>Prepend</order>
 			      <value>
 			         <li>Coal</li>
 			         <li>Charcoal</li>
@@ -326,6 +340,7 @@
 			   <xpath>Defs/ThingDef[defName = "sd_medicaddons_medieval_surg_lamp"]</xpath>
 			   <match Class="PatchOperationAdd">
 			      <xpath>Defs/ThingDef[defName = "sd_medicaddons_medieval_surg_lamp"]//thingDefs</xpath>
+            <order>Prepend</order>
 			      <value>
 			         <li>Coal</li>
 			         <li>Charcoal</li>
@@ -334,4 +349,31 @@
 			</li>
 		</operations>
 	</Operation>
+
+  <!-- Smoked Meat -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="Smokepit"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="Smokepit"]//thingDefs</xpath>
+      <order>Prepend</order>
+      <value>
+        <li>Coal</li>
+        <li>Charcoal</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="SmokeHouse"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName="SmokeHouse"]//thingDefs</xpath>
+      <order>Prepend</order>
+      <value>
+        <li>Coal</li>
+        <li>Charcoal</li>
+      </value>
+    </match>
+  </Operation>
 </Patch>

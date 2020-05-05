@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <ThingDef ParentName="ResourceBase">
@@ -9,7 +9,7 @@
       <texPath>Coal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-		<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <soundInteract>Wood_Drop</soundInteract>
     <soundDrop>Wood_Drop</soundDrop>
     <statBases>
@@ -35,7 +35,7 @@
       <texPath>Charcoal</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-		<useHitPoints>false</useHitPoints>
+    <useHitPoints>false</useHitPoints>
     <soundInteract>Wood_Drop</soundInteract>
     <soundDrop>Wood_Drop</soundDrop>
     <statBases>
