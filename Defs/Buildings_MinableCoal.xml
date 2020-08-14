@@ -21,7 +21,7 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>Coal</mineableThing>
       <mineableYield>40</mineableYield>
-      <mineableScatterCommonality>0.9</mineableScatterCommonality>
+      <mineableScatterCommonality>0.75</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
