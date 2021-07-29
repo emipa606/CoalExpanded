@@ -1,12 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Coal Expanded</name>
-	<author>Neceros</author>
+  <name>Coal Expanded (Continued)</name>
+  <packageId>Mlie.CoalExpanded</packageId>
+  <author>Neceros</author>
+  <url>https://github.com/emipa606/CoalExpanded</url>
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
-  <packageId>neceros.coalexpanded</packageId>
-	<description>Adds coal &amp; charcoal, and various workbenches which use it as fuel. Spawns coal into your mountains and under the ground by using a ground penetrating scanner.</description>
+  <modDependencies />
+  <loadAfter />
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Neceross mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1874344070
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/CoalExpanded][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+Coal in your mountains! Burn wood into charcoal! Use that coal and charcoal to power new work benches, coal braziers and stoves, and a medieval cooler meant to keep food fresh! And more! Pollute the locals?
+
+Adds coal to your game which spawns above and below ground if you use a ground scanner. Refill vanilla benches, torches, and other buildings with coal and charcoal in addition to wood. Additionally, smelt lots of stone blocks to get a little bit of coal. Turn coal into chemfuel.
+
+
+[b]Sorry, but I&apos;m no longer maintaining my mods. Maybe in the future[/b]
+[i]Please note 99% of my mods are MIT licensed, meaning you can do whatever you want with it with the requirement of crediting me.[/i]
+
+
+[b]DO NOT[/b] add this mod mid save: you will get no coal.
+[b]DO NOT[/b] remove this mod from a save: It will explode.
+
+
+[h1]Features[/h1]
+[list]
+[*]New resources: coal and charcoal. Used as fuel
+[*]Two research projects: [i]Coal Production[/i] &amp; [i]Coal Generator[/i]
+[*]Adds new work benches which only use coal (or charcoal): crematorium, smelter, and a grill
+[*]Coal-fired generator will produce electrical power from coal and charcoal
+[*]Adds a coal brazier, producing light and a small amount of heat (works with Royalty)
+[*]The active cooler lowers the temperature in order keep items fresh (35f / 1c)
+[*]A stove which heats as well as a heater and only requires fuel --  great for tribals
+[*]Torches, campfires, and the fueled benches now accept coal and charcoal as fuel sources, and in-fact prefer it over wood
+[/list]
+[img]https://i.imgur.com/7bPiS9H.png[/img]
+
+[h1]Compatibility[/h1]
+[list]
+[*][b]Medieval Times[/b]: most buildings can be refueled with coal/charcoal
+[*][b]Vanilla Furniture Expanded[/b]: Stone campfire can also make charcoal
+[*][b]Dub&apos;s Bad Hygiene[/b]: Log Boilers may now be fueled with coal and charcoal
+[*][b]Tribal Signal Fire[/b]: Signal fire can use coal and charcoal
+[*][b]Gloomy Furniture[/b]: Most furniture can take coal/charcoal
+[*][b]LOTR: Third Age[/b]: Smithy table supported
+[*][b]Vanilla Furniture Expanded - Production[/b]: Support for the fueled smelter
+[*][b]Call of Cthulhu - Cults[/b]: Alcove torch supported
+[*][b][sd] medicaddons[/b]: Medieval lamp
+[*][b]Royalty[/b]: Brazier prefer coal and charcoal over wood
+[*][b]Smoked Meat[/b]: coal for smokehouse and smokepit
+[*][b]Rim of Madness - Bones[/b]: use the coal smelter for bone recipes
+[/list]
+
+
+[img]https://i.imgur.com/fnEzwDH.png[/img]
+
+[b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2135609714]Medieval Times Patch[/url][/b]: Add coal to medieval time&apos;s quarries.
+
+
+[img]https://i.imgur.com/NpuFU7v.png[/img]
+
+[img]https://i.imgur.com/s3KRLlu.gif[/img]
+
+[b]Github:[/b] https://github.com/Neceros/CoalExpanded
+
+[b]Get help, Ask questions, Give suggestions:[/b]
+[url=https://discord.gg/AvV7DT5][img]https://i.imgur.com/lkEpF5w.png[/img][/url]
+
+[b]My mods:[/b]
+[url=https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;numperpage=30][img]https://i.imgur.com/MD0xY84.png[/img][/url]
+
+[b]Like these mods? Support me so I make more:[/b]
+[url=https://ko-fi.com/Q5Q019Y8A][img]https://i.imgur.com/EHcTTRx.png[/img][/url]
+
+[i]MIT License; Copyright (c) 2020 Billy Barnes[/i]
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

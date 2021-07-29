@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ResearchProjectDef>
     <defName>Research_NECCoalProduction</defName>
     <label>Coal Production</label>
@@ -10,7 +9,6 @@
     <researchViewX>2.00</researchViewX>
     <researchViewY>0.05</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>Research_NECCoalPowergen</defName>
     <label>Coal Power Generation</label>
@@ -24,5 +22,4 @@
     <researchViewX>6.00</researchViewX>
     <researchViewY>4.20</researchViewY>
   </ResearchProjectDef>
-
 </Defs>

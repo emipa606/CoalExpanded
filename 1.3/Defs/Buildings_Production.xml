@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
   <ThingDef ParentName="BuildingBase">
     <defName>CoalCrematorium</defName>
     <label>coal crematorium</label>
@@ -48,6 +47,7 @@
     <recipes>
       <li>CremateCorpse</li>
       <li>BurnApparel</li>
+      <li>BurnWeapon</li>
       <li>BurnDrugs</li>
     </recipes>
     <inspectorTabs>
@@ -89,7 +89,6 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
-  
   <ThingDef ParentName="BenchBase">
     <defName>CoalSmelter</defName>
     <label>coal smelter</label>
@@ -136,7 +135,9 @@
       <li>Make_CharcoalFromWood</li>
       <li>Make_CoalFromStone</li>
       <li>SmeltWeapon</li>
+      <li>SmeltApparel</li>
       <li>DestroyWeapon</li>
+      <li>DestroyApparel</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -177,7 +178,6 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
-  
   <ThingDef ParentName="BenchBase">
     <defName>CoalGrill</defName>
     <label>coal grill</label>
@@ -223,13 +223,22 @@
     <recipes>
       <li>CookMealSimple</li>
       <li>CookMealFine</li>
+      <li>CookMealFine_Veg</li>
+      <li>CookMealFine_Meat</li>
       <li>CookMealLavish</li>
+      <li>CookMealLavish_Veg</li>
+      <li>CookMealLavish_Meat</li>
       <li>CookMealSurvival</li>
       <li>CookMealSimpleBulk</li>
       <li>CookMealFineBulk</li>
+      <li>CookMealFineBulk_Veg</li>
+      <li>CookMealFineBulk_Meat</li>
       <li>CookMealLavishBulk</li>
+      <li>CookMealLavishBulk_Veg</li>
+      <li>CookMealLavishBulk_Meat</li>
       <li>CookMealSurvivalBulk</li>
       <li>Make_Pemmican</li>
+      <li>Make_PemmicanBulk</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -269,8 +278,6 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
-
-
   <ThingDef ParentName="BuildingBase">
     <defName>NECCoalLamp</defName>
     <label>coal brazier</label>
@@ -349,7 +356,6 @@
     </comps>
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
-
   <ThingDef ParentName="BuildingBase">
     <defName>NECActiveCooler</defName>
     <label>active cooler</label>
@@ -413,7 +419,7 @@
         <autoRefuelPercent>0.33</autoRefuelPercent>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
     </comps>
     <designationCategory>Temperature</designationCategory>
     <researchPrerequisites>
@@ -421,11 +427,10 @@
     </researchPrerequisites>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
-
   <ThingDef ParentName="BuildingBase">
     <defName>CoalStove</defName>
     <label>coal stove</label>
-    <description>Burn coal to produce heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable with coal and charcoal.</description>    
+    <description>Burn coal to produce heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable with coal and charcoal.</description>
     <thingClass>Building_WorkTable</thingClass>
     <category>Building</category>
     <graphicData>
@@ -456,7 +461,7 @@
     </statBases>
     <selectable>true</selectable>
     <costList>
-      <Steel>45</Steel> 
+      <Steel>45</Steel>
     </costList>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <resourcesFractionWhenDeconstructed>0.75</resourcesFractionWhenDeconstructed>
@@ -487,7 +492,7 @@
         <heatPerSecond>21</heatPerSecond>
         <heatPushMaxTemperature>25</heatPushMaxTemperature>
       </li>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li>
         <compClass>CompGatherSpot</compClass>
       </li>
@@ -500,8 +505,6 @@
       <li>Research_NECCoalProduction</li>
     </researchPrerequisites>
   </ThingDef>
-
-
   <ThingDef ParentName="BuildingBase">
     <defName>CoalFiredGenerator</defName>
     <label>coal-fired generator</label>
@@ -564,7 +567,7 @@
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>10</heatPerSecond>
       </li>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
@@ -574,5 +577,4 @@
     </researchPrerequisites>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
-
 </Defs>

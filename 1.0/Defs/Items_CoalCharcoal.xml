@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="ResourceBase">
     <defName>Coal</defName>
     <label>coal</label>
@@ -26,7 +25,6 @@
       <max>34</max>
     </deepLumpSizeRange>
   </ThingDef>
-  
   <ThingDef ParentName="ResourceBase">
     <defName>Charcoal</defName>
     <label>charcoal</label>
@@ -46,5 +44,4 @@
       <li>ResourcesRaw</li>
     </thingCategories>
   </ThingDef>
-  
 </Defs>
