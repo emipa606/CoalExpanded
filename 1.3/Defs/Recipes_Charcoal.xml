@@ -35,6 +35,7 @@
     <jobString>Smelting stone into coal.</jobString>
     <effectWorking>Cremate</effectWorking>
     <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
     <workAmount>2800</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <ingredients>
