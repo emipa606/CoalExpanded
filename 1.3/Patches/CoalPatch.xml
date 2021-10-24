@@ -94,10 +94,12 @@
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationAdd">
+				<success>Always</success>
 				<xpath>/Defs/RecipeDef/recipeUsers[li="FueledStove"]</xpath>
 				<value><li>CoalGrill</li></value>
 			</li>
 			<li Class="PatchOperationAdd">
+				<success>Always</success>
 				<xpath>/Defs/RecipeDef/recipeUsers[li="ElectricSmelter"]</xpath>
 				<value><li>CoalSmelter</li></value>
 			</li>
