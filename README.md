@@ -5,6 +5,8 @@
 Update of Neceross mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1874344070
 
+- Replaced the specific fuel patches with a generic, thanks Kayedon! Should now add coal/charcoal as fuel wherever wood is used. 
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	

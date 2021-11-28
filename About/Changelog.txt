@@ -1,5 +1,10 @@
 # Changelog for CoalExpanded
 
+1.0.3.0 - Added allowMixingIngredients to Smelting stone into coal recipe
+Added two patches to catch more recipes for the cook benches
+Thank you Kayedon for the PR!
+
+
 1.0.2.0 - Replaced the specific coal-patches with a generalized version, thank you Kayedon! Now coal and charcoal should be usable as fuel everywhere where logs can be used.
 
 
