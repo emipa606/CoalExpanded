@@ -11,6 +11,9 @@
     <li>1.3</li>
   </supportedVersions>
   <modDependencies />
+  <loadBefore>
+    <li>owlchemist.simplechains.lumber</li>
+  </loadBefore>
   <loadAfter />
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Neceross mod
