@@ -1,5 +1,8 @@
 # Changelog for CoalExpanded
 
+1.4.2 - Added coal brazers to royalty titles
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
