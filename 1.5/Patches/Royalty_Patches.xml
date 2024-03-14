@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingAnyOf" or @Class="RoomRequirement_AllThingsAnyOfAreGlowing"]/things[li="Brazier"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingAnyOf"]/things[li="Brazier"]</xpath>
+      <value>
+        <li>NECCoalLamp</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/RecipeDef[defName="MakeBoneChina"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="CoalSmelter"]/recipes</xpath>
+      <value>
+        <li>MakeBoneChina</li>
+        <li>MakeBonecrete</li>
+        <li>MakeBonePlastic</li>
+        <li>MakeBonePlasteel</li>
+        <li>MakeMarrowFromBone</li>
+        <li>MakeGelatinFromMarrow</li>
+        <li>Make_ChemfuelFromBone</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
