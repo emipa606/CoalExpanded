@@ -183,6 +183,7 @@
     <label>coal grill</label>
     <description>A coal-fueled grill with an attached countertop for preparing meals.</description>
     <thingClass>Building_WorkTable_HeatPush</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
       <texPath>CoalGrill/CoalGrill</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -239,6 +240,8 @@
       <li>CookMealSurvivalBulk</li>
       <li>Make_Pemmican</li>
       <li>Make_PemmicanBulk</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFood</li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -254,16 +257,11 @@
           </thingDefs>
         </fuelFilter>
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
-        <initialFuelPercent>0</initialFuelPercent>
-        <autoRefuelPercent>0.33</autoRefuelPercent>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>4</heatPerSecond>
-      </li>
-      <li>
-        <compClass>CompReportWorkSpeed</compClass>
       </li>
     </comps>
     <building>
