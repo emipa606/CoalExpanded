@@ -1,5 +1,8 @@
 # Changelog for CoalExpanded
 
+1.5.2 - Coal can now be mined using the vein-designation
+
+
 1.5.1 - Fixed the duplicated comp for the coal grill
 
 

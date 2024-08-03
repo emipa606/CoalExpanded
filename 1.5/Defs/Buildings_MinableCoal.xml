@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--================================ Coal Ore ======================================-->
   <ThingDef ParentName="RockBase">
@@ -21,6 +21,7 @@
       <mineableYield>40</mineableYield>
       <mineableScatterCommonality>0.75</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
     </building>
   </ThingDef>
 </Defs>

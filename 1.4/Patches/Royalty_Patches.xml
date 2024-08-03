@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationConditional">
     <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingAnyOf" or @Class="RoomRequirement_AllThingsAnyOfAreGlowing"]/things[li="Brazier"]</xpath>

@@ -1,6 +1,7 @@
 # [Coal Expanded (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2560551007)
 
 ![Image](https://i.imgur.com/buuPQel.png)
+
 Update of Neceross mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1874344070
 
@@ -9,6 +10,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1874344070
 ![Image](https://i.imgur.com/pufA0kM.png)
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
+
 Coal in your mountains! Burn wood into charcoal! Use that coal and charcoal to power new work benches, coal braziers and stoves, and a medieval cooler meant to keep food fresh! And more! Pollute the locals?
 
 Adds coal to your game which spawns above and below ground if you use a ground scanner. Refill vanilla benches, torches, and other buildings with coal and charcoal in addition to wood. Additionally, smelt lots of stone blocks to get a little bit of coal. Turn coal into chemfuel.
@@ -60,7 +62,7 @@ Adds coal to your game which spawns above and below ground if you use a ground s
 
 ![Image](https://i.imgur.com/fnEzwDH.png)
 
-**[https://steamcommunity.com/sharedfiles/filedetails/?id=2135609714](Medieval Times Patch)**: Add coal to medieval time's quarries.
+**[Medieval Times Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2135609714)**: Add coal to medieval time's quarries.
 
 
 ![Image](https://i.imgur.com/NpuFU7v.png)
@@ -68,21 +70,22 @@ Adds coal to your game which spawns above and below ground if you use a ground s
 ![Image](https://i.imgur.com/s3KRLlu.gif)
 
 **My mods:**
-[https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100]![Image]((https://i.imgur.com/MD0xY84.png))
+[![Image](https://i.imgur.com/MD0xY84.png)](https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100)
 
 *MIT License; Copyright (c) 2020 Billy Barnes*
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
+
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
 
 
-[https://steamcommunity.com/sharedfiles/filedetails/changelog/2560551007]![Image]((https://img.shields.io/github/v/release/emipa606/CoalExpanded?label=latest%20version&style=plastic&color=9f1111&labelColor=black))
+[![Image](https://img.shields.io/github/v/release/emipa606/CoalExpanded?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2560551007)
