@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: charcoal -->
+  <Charcoal.label>charcoal</Charcoal.label>
+  <!-- EN: A lightweight black carbon-ash residue made from burning wood. -->
+  <Charcoal.description>A lightweight black carbon-ash residue made from burning wood.</Charcoal.description>
+  <!-- EN: coal -->
+  <Coal.label>coal</Coal.label>
+  <!-- EN: A combustible black/dark-brown sedimentary rock made of long dead animals. Burned for heat and energy production. -->
+  <Coal.description>A combustible black/dark-brown sedimentary rock made of long dead animals. Burned for heat and energy production.</Coal.description>
+</LanguageData>

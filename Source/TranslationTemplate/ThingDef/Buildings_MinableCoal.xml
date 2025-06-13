@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: coal ore -->
+  <MineableCoal.label>coal ore</MineableCoal.label>
+  <!-- EN: Rock containing chunks of coal. -->
+  <MineableCoal.description>Rock containing chunks of coal.</MineableCoal.description>
+</LanguageData>

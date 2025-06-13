@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Coal Power Generation -->
+  <Research_NECCoalPowergen.label>Coal Power Generation</Research_NECCoalPowergen.label>
+  <!-- EN: Power your colony with coal and charcoal generators. -->
+  <Research_NECCoalPowergen.description>Power your colony with coal and charcoal generators.</Research_NECCoalPowergen.description>
+  <!-- EN: Coal Production -->
+  <Research_NECCoalProduction.label>Coal Production</Research_NECCoalProduction.label>
+  <!-- EN: Build special workbenches which run solely from coal and charcoal. -->
+  <Research_NECCoalProduction.description>Build special workbenches which run solely from coal and charcoal.</Research_NECCoalProduction.description>
+</LanguageData>

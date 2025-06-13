@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: coal crematorium -->
+  <CoalCrematorium.label>coal crematorium</CoalCrematorium.label>
+  <!-- EN: A huge stone crematorium which vaporizes corpses with extremely high temperatures. Burns coal and charcoal. -->
+  <CoalCrematorium.description>A huge stone crematorium which vaporizes corpses with extremely high temperatures. Burns coal and charcoal.</CoalCrematorium.description>
+  <!-- EN: coal-fired generator -->
+  <CoalFiredGenerator.label>coal-fired generator</CoalFiredGenerator.label>
+  <!-- EN: Produces power by consuming coal. Must be periodically loaded with coal by hand. -->
+  <CoalFiredGenerator.description>Produces power by consuming coal. Must be periodically loaded with coal by hand.</CoalFiredGenerator.description>
+  <!-- EN: coal grill -->
+  <CoalGrill.label>coal grill</CoalGrill.label>
+  <!-- EN: A coal-fueled grill with an attached countertop for preparing meals. -->
+  <CoalGrill.description>A coal-fueled grill with an attached countertop for preparing meals.</CoalGrill.description>
+  <!-- EN: coal smelter -->
+  <CoalSmelter.label>coal smelter</CoalSmelter.label>
+  <!-- EN: Extracts usable metal from slag chunks and other mixed metal items. Consumes coal. -->
+  <CoalSmelter.description>Extracts usable metal from slag chunks and other mixed metal items. Consumes coal.</CoalSmelter.description>
+  <!-- EN: coal stove -->
+  <CoalStove.label>coal stove</CoalStove.label>
+  <!-- EN: Burn coal to produce heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable with coal and charcoal. -->
+  <CoalStove.description>Burn coal to produce heat. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable with coal and charcoal.</CoalStove.description>
+  <!-- EN: active cooler -->
+  <NECActiveCooler.label>active cooler</NECActiveCooler.label>
+  <!-- EN: Heats up liquid in a vacuum, the resulting gas absorbs heat and creates ice. Cools the room enough to keep spoilables fresh, but not frozen. Requires coal or charcoal refueling. -->
+  <NECActiveCooler.description>Heats up liquid in a vacuum, the resulting gas absorbs heat and creates ice. Cools the room enough to keep spoilables fresh, but not frozen. Requires coal or charcoal refueling.</NECActiveCooler.description>
+  <!-- EN: coal brazier -->
+  <NECCoalLamp.label>coal brazier</NECCoalLamp.label>
+  <!-- EN: A steel brazier powered by coal or charcoal. Isn't as bright as a torch, but lasts a lot longer. People need light to move and work at full speed. Can be automatically refueled with coal and charcoal. Produces a small amount of heat. -->
+  <NECCoalLamp.description>A steel brazier powered by coal or charcoal. Isn't as bright as a torch, but lasts a lot longer. People need light to move and work at full speed. Can be automatically refueled with coal and charcoal. Produces a small amount of heat.</NECCoalLamp.description>
+</LanguageData>

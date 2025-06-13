@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make charcoal from wood -->
+  <Make_CharcoalFromWood.label>make charcoal from wood</Make_CharcoalFromWood.label>
+  <!-- EN: Make a batch of charcoal by burning wood. -->
+  <Make_CharcoalFromWood.description>Make a batch of charcoal by burning wood.</Make_CharcoalFromWood.description>
+  <!-- EN: Burning wood into charcoal. -->
+  <Make_CharcoalFromWood.jobString>Burning wood into charcoal.</Make_CharcoalFromWood.jobString>
+  <!-- EN: make chemfuel from coal -->
+  <Make_ChemfuelFromCoal.label>make chemfuel from coal</Make_ChemfuelFromCoal.label>
+  <!-- EN: Make a batch of chemfuel by crushing, grinding, and extracting it from coal. -->
+  <Make_ChemfuelFromCoal.description>Make a batch of chemfuel by crushing, grinding, and extracting it from coal.</Make_ChemfuelFromCoal.description>
+  <!-- EN: Refining chemfuel from coal. -->
+  <Make_ChemfuelFromCoal.jobString>Refining chemfuel from coal.</Make_ChemfuelFromCoal.jobString>
+  <!-- EN: smelt coal from stone -->
+  <Make_CoalFromStone.label>smelt coal from stone</Make_CoalFromStone.label>
+  <!-- EN: Make a bit of coal by smelting stone. -->
+  <Make_CoalFromStone.description>Make a bit of coal by smelting stone.</Make_CoalFromStone.description>
+  <!-- EN: Smelting stone into coal. -->
+  <Make_CoalFromStone.jobString>Smelting stone into coal.</Make_CoalFromStone.jobString>
+</LanguageData>
